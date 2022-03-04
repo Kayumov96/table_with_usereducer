@@ -1,0 +1,76 @@
+*{
+  border: 1px solid green;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  /* margin: 0;
+  padding: 0; */
+  /* background: linear-gradient(180.29deg, #151415 31.61%, #0D0C0D 62.59%, #000000 94.98%); */
+}
+body{
+  font-family: Roboto;
+  margin:0;
+  padding: 0;
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+/* .logo{ 
+  width: 80%;
+} */
+.active{
+  color: #F15A24;
+}
+.iconlinks{
+  height:20px;
+  width:20px;
+}
+.icondiv{
+  width: 10%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.backtext{
+  width:100%;
+  height: 600px;
+  display: inline-block;
+  color: #1d2327;
+  margin:0;
+}
+.ontime{
+  margin:0 20%;
+  padding: 0;
+  width:80%;
+  font-weight: bold !important;
+  height: 600px;
+  font-size:240px;
+}
+.ondiv{
+  width: 98%;
+  position: absolute;
+  top: 50%;
+}
+.footer{
+  width: 80%;
+  margin-left:  10%;
+  margin-top:4%;
+}
+.pages{
+  width:12px;
+  height:12px;
+}
+.textdrive{
+  font-size:120px;
+  font-weight:700;
+  line-height:100px;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  /* margin-left: 100px; */
+}
+.textdr{
+  font-size:120px;
+  font-weight:700;
+  width: 750px;
+  margin: 0;
+  flex-wrap: nowrap;
+}
