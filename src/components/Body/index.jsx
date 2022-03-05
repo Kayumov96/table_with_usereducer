@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Description, Imeg, Img, Ondiv, PageLinks, Textdiv } from './style';
+import { Container, Description, Imeg, Img, Info, Ondiv, PageLinks, Textdiv } from './style';
 import Redd from '../../assets/images/Redd.png';
 import chat from '../../assets/icons/chat.svg';
 import circleb from '../../assets/icons/circleb.svg'
@@ -22,7 +22,10 @@ export const Body = () => {
                   </PageLinks>
                   <Description>
                       <h2 className="textdrive">DRIVE <h2 className="textdr">FOR ONTIME</h2> EXPRESS</h2>
-                      
+                      <Info>
+                          <h5>Driver Application</h5>
+                          <h5>Call a Recruiter</h5>
+                      </Info>
                   </Description>
                   <Imeg src={ Redd } alt='Red Truck' />  
                   <Img src={chat} alt='help'/>

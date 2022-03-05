@@ -9,8 +9,8 @@ export const Textdiv = styled.span`
  position: absolute;
  width: 90%;
  height: 85%;
- font-weight: 1000;
- font-size: 290px;
+ font-weight: 900;
+ font-size: 18rem;
  color:#302F30;
  margin-left: 9%;
  line-height: 333px;
@@ -23,9 +23,9 @@ export const Ondiv = styled.div`
  color: #fff;
 `;
 export const Imeg = styled.img`
- width: 55%;
+ width: 53%;
  height:75%;
- margin-left: 0%;
+ margin-left: -4%;
  margin-top: 10%;
 `;
 export const Img = styled.img`
@@ -50,4 +50,13 @@ export const Description = styled.div`
   margin-top: 13%;
   margin-left: 80px;
   display: block;
+`;
+export const Info = styled.div`
+ display: flex;
+ margin-top:0 ;
+ font-size:37px ;
+ padding-left:0;
+ /* gap: 4%; */
+ justify-content: space-around;
+
 `;
