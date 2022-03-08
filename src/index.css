@@ -1,9 +1,7 @@
 *{
-  /* border: 1px solid green; */
+  border: 1px solid green;
+  box-sizing: border-box;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  /* margin: 0;
-  padding: 0; */
-  /* background: linear-gradient(180.29deg, #151415 31.61%, #0D0C0D 62.59%, #000000 94.98%); */
 }
 body{
   font-family: Roboto;
@@ -14,9 +12,6 @@ body{
   display: flex;
   align-items: center;
 }
-/* .logo{ 
-  width: 80%;
-} */
 .active{
   color: #F15A24;
 }
@@ -50,11 +45,11 @@ body{
   position: absolute;
   top: 50%;
 }
-.footer{
+/* .footer{
   width: 80%;
   margin-left:  10%;
   margin-top:4%;
-}
+} */
 .pages{
   width:12px;
   height:12px;
@@ -66,7 +61,6 @@ body{
   flex-wrap: wrap;
   margin-top: 2%;
   margin-bottom: 0;
-  /* margin-left: 100px; */
 }
 .textdr{
   font-size:120px;
@@ -74,4 +68,7 @@ body{
   width: 750px;
   margin: 0;
   flex-wrap: nowrap;
+}
+.changecolor{
+  cursor:pointer;
 }

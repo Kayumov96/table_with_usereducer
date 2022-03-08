@@ -4,12 +4,13 @@ export const Navicon = styled.img`
  width: 20px;
  height: 20px;
  color: #F15A24;
+ cursor: pointer;
 `;
 
 
 export const Navdiv = styled.div`
  width: 100%;
- height: 120px;
+ height: 100px;
  background: #141414;
  display: flex;
  color: #fff;

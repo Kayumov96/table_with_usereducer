@@ -8,17 +8,17 @@ import circleb from '../../assets/icons/circleb.svg'
 export const Body = () => {
   return (
       <div>
-          <Container>
+          <Container id="1">
               <Textdiv>
                   ONTIME EXPRESS
               </Textdiv>
               <Ondiv>
                   <PageLinks>
-                      <img className="pages" src={ circleb } alt="click to next page" />
-                      <img className="pages" src={ circleb } alt="click to next page" />
-                      <img className="pages" src={ circleb } alt="click to next page" />
-                      <img className="pages" src={ circleb } alt="click to next page" />
-                      <img className="pages" src={circleb} alt="click to next page" />
+                     <a href='#1'><img className="pages" src={ circleb } alt="click to next page" /></a> 
+                     <a href='#2'> <img className="pages" src={ circleb } alt="click to next page" /></a>
+                      <a href='#3'><img className="pages" src={ circleb } alt="click to next page" /></a>
+                    <a href='#4'> <img className="pages" src={ circleb } alt="click to next page" /></a>
+                      <a href='#5'><img className="pages" src={circleb} alt="click to next page" /></a>
                   </PageLinks>
                   <Description>
                       <h2 className="textdrive">DRIVE <h2 className="textdr">FOR ONTIME</h2> EXPRESS</h2>

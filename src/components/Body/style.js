@@ -26,7 +26,7 @@ export const Imeg = styled.img`
  width: 53%;
  height:75%;
  margin-left: -4%;
- margin-top: 10%;
+ margin-top: 7%;
 `;
 export const Img = styled.img`
  position: absolute;

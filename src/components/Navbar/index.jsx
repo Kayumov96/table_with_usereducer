@@ -7,8 +7,13 @@ import Facebook from '../../assets/icons/Facebook.svg';
 import linkedin from '../../assets/icons/linkedin.svg';
 import { NavbarCreateContext } from '../../context/navbar';
 
-export const Navbar = ( ) => {
+export const Navbar = ({value,id} ) => {
     const [ navlinks, setNav ] = useContext( NavbarCreateContext );
+    const handleSelect = ( id ) => {
+        let res = value.id === id && 'active' ? setNav : value;
+        setNav( res );
+   }
+
   return (
       <div>
           <Navdiv>
@@ -18,7 +23,7 @@ export const Navbar = ( ) => {
             {
               navlinks.map( (value) => (
                   <div className='nav' key={ value.id }>
-                      <Navicon src={ value.src } alt="icons" /> <h2>{ value.title}</h2>
+                      <Navicon src={ value.src } alt="icons" /> <h2 className='changecolor' onClick={handleSelect}>{ value.title}</h2>
                   </div>
               ))
               }
@@ -29,15 +34,6 @@ export const Navbar = ( ) => {
                   <img className="iconlinks" src={ linkedin } alt='linkedin' />
               </div>
           </Navdiv>
-          {/* <Bodydiv>
-              <div className="backtext">
-                  <h1 className="ontime">ONTIME EXPRESS</h1>
-                  <img className="footer" src={footer} alt="footer"/>
-              </div>
-              <div className="ondiv">
-                <h1>her</h1>
-              </div>
-          </Bodydiv> */}
       </div>
   )
 }

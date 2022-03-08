@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {ReactComponent as companies} from '../../assets/images/companies.png'
 
 export const Container = styled.div`
  width: 100%;
