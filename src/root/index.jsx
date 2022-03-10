@@ -1,15 +1,13 @@
 import React from 'react';
-import Navbar from '../components/Navbar/index';
-import Body from '../components/Body/index'
-import Footer from '../components/Footer/index'
+import Navbar from '../Navbar';
+import Quotes from '../View/Quote';
 
 
-export  const Root = () => {
+export  const Root = ({navlinks, circle}) => {
   return (
     <div>
-      <Navbar />
-      <Body />
-      <Footer/>
+      <Navbar data={ navlinks } d={ circle } />
+      <Quotes/>
     </div>
   )
 }
