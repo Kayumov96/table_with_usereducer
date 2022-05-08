@@ -1,7 +1,7 @@
-*{
-  border: 1px solid green;
+* {
   box-sizing: border-box;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+body {
   margin: 0;
   padding: 0;
 }

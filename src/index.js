@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import PagesContext from './context/navbar'
-import Root from './root/index.jsx';
-import {BrowserRouter as Router} from 'react-router-dom'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Table from "./components/Table";
+import "./index.css";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    <Router>
-      <PagesContext>
-        <Root/>
-      </PagesContext>
-    </Router>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Table />
+  </React.StrictMode>
 );
